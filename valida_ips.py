@@ -21,9 +21,6 @@ for line in lines:
     else:
         validos.append(line)
 print('[Endereços válidos:]')
-for v in validos:
-    print(v)
-
+print('\n'.join(validos))
 print('\n[Endereços inválidos:]')
-for v in invalidos:
-    print(v)
+print('\n'.join(invalidos))
